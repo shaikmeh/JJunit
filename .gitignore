@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 .gradle
 build/
@@ -35,3 +36,10 @@ out/
 
 ### VS Code ###
 .vscode/
+=======
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+>>>>>>> d2d727bb8a0b71f7ac2d9f9d9a6763be9c276218
