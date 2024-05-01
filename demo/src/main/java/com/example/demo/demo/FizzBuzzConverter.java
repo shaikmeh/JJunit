@@ -2,7 +2,10 @@ package com.example.demo.demo;
 
 public class FizzBuzzConverter {
     public String convert(int i) {
-        return String.valueOf(i);
-        }
+        if (i%3 == 0) {
+            return "Fizz";
+            }
+            return String.valueOf(i);
         
+}
 }
