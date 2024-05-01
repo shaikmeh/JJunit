@@ -15,10 +15,18 @@ public void fizzBuzzConvertor2() {
 FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 assertEquals("2", fizzBuzz.convert(2));
 }
+@Test
+public void fizzBuzzConvertor3() {
+FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+assertEquals("Fizz", fizzBuzz.convert(3));
+}
+@Test
+public void fizzBuzzConvertorMultiplesOfThree() {
+FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+assertEquals("Fizz", fizzBuzz.convert(6));
+}
 
-
-    
-    }
+}
 
 
     
