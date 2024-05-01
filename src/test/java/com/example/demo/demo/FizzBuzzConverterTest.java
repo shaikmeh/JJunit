@@ -18,14 +18,12 @@ public class FizzBuzzConverterTest {
     assertEquals("1", fizzBuzz.convert(1));
 
 }
+    @Test
+    public void fizzBuzzConvertor2() {
+    FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+    assertEquals("2", fizzBuzz.convert(2));
+ }
 }
-
-
-   // @Test
-  //   public void fizzBuzzConvertor2() {
-   //  FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
-  //   assertEquals("2", fizzBuzz.convert(2));
-//}
   //  @Test
  //   public void fizzBuzzConvertor3() {
   //  FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
