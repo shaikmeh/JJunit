@@ -25,6 +25,12 @@ public void fizzBuzzConvertorMultiplesOfThree() {
 FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 assertEquals("Fizz", fizzBuzz.convert(6));
 }
+@Test
+public void fizzBuzzConvertorMultiplesOfSeven() {
+FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+assertEquals("Buzz", fizzBuzz.convert(7));
+}
+
 
 }
 
