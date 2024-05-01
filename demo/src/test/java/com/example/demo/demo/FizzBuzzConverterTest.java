@@ -1,6 +1,7 @@
 package com.example.demo.demo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
@@ -30,6 +31,15 @@ public void fizzBuzzConvertorMultiplesOfSeven() {
 FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 assertEquals("Buzz", fizzBuzz.convert(7));
 }
+@Test
+public void fizzBuzzConvertorMultiplesOfThreeAndSeven() {
+FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+assertNotEquals("FizzBuzz", fizzBuzz.convert(14));
+assertEquals("FizzBuzz", fizzBuzz.convert(21));
+assertEquals("FizzBuzz", fizzBuzz.convert(42));
+assertEquals("FizzBuzz", fizzBuzz.convert(63));
+}
+
 
 
 }
